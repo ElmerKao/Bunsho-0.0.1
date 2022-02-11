@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Bunsho
-Source: ftp://github.com/ElmerKao/Bunsho-0.0.3
+Source: ftp://github.com/ElmerKao/Bunsho-0.0.1
 
 Files: *
 Copyright: Copyright 2021 Isaac Sanz Gómez <isaacsanzgomez102125@gmail.com>
