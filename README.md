@@ -9,6 +9,8 @@ If you want to get startet with this text editor called Bunsho,
 - And done! All you have to do is write in the terminal ` bunsho` followed by the file and that's it!
 
 
+# <a href="https://github.com/ElmerKao/Bunsho-0.0.1/blob/main/copyright" >Copyright</a>
+
 # Credits
 
 Project: https://github.com/snaptoken/kilo-tutorial/
