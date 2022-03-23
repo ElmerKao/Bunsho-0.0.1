@@ -20,7 +20,7 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="./Indice.html">Inicio</a></li>
+                    <li><a href="./index.md">Inicio</a></li>
                     <li><a href="#grid_item_2">Características</a></li>
                     <li><a href="#grid_item_4">Descarga</a></li>
                     <li><a href="./Contacto.html">Contacto</a></li>
