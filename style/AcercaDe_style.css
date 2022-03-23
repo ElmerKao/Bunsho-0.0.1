@@ -1,0 +1,158 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    height: 100%;
+    background-color: #FFDBC5;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 2% 1% 15% 1%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #fe7f4a;
+}
+
+a:hover.active {
+    background-color: #c46137;
+}
+
+
+.container {
+    display: flex;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.flex-item {
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin: -0.5%;
+}
+
+
+p.under {
+    color: rgb(83, 83, 83);
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 10%;
+    line-height: 32px;
+    font-size: x-large;
+}
+
+h1 {
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-size: 54px;
+    font-style: italic;
+    margin-top: -12%;
+}
+
+h1.founder {
+    color: #111;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 64px;
+    margin: 0 0 0;
+    padding: 20px 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer {
+    margin-top: 13%;
+    background-color: #333;
+    text-align: center;
+    padding-bottom: 2.5%;
+}
+
+a.footer {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 10px;
+    margin-top: 2%;
+    text-decoration: none;
+    display: block;
+}
+
+.icon-bar {
+    width: 100%;
+    background-color: #333;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.link {
+    border-bottom: 3px solid #000;
+    transition: all 0.25s linear;
+    position: relative;
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+
+.link:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #FF5757;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    /* this is to match where the border is */
+    transform-origin: left;
+    transform: scale(0);
+    transition: 0.25s linear;
+}
+
+.link:hover:before {
+    transform: scale(1);
+}
