@@ -23,7 +23,6 @@
                     <li><a href="./index.md">Inicio</a></li>
                     <li><a href="#grid_item_2">Características</a></li>
                     <li><a href="#grid_item_4">Descarga</a></li>
-                    <li><a href="./Contacto.html">Contacto</a></li>
                     <li style="float:right"><a class="active" href="./AcercaDe.html">Acerca de</a></li>
                 </ul>
             </nav>
