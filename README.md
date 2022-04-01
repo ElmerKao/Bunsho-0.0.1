@@ -1,6 +1,6 @@
 # Bunsho-0.0.1
 Hi, This is a very simple text editor called Bunsho, coded for Linux/UNIX Ubuntu Based OS it has the basics to work without any extras
-Baically a project that i made<br><a href="https://"></a>
+Baically a project that i made<br><a href="https://www.bunsho.x10.mx"></a>
 If you want to get startet with this text editor called Bunsho,
 - The most recomended way is to download the files with git clone, write in the terminal:<br>
   `git clone https://github.com/ElmerKao/Bunsho-0.0.1 `
